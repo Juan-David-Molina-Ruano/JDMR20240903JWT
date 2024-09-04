@@ -93,8 +93,8 @@ app.AddBodegaEndpoints();
 
 app.UseHttpsRedirection();
 
-app.UseAuthorization();
 app.UseAuthentication();
+app.UseAuthorization();
 
 
 app.Run();
